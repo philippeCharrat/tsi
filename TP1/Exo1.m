@@ -1,4 +1,4 @@
-clc;clear variables;close all;
+ clc;clear variables;close all;
 
 PLANCHER = im2double(imread("Images/flower.png"));
 J = imnoise(PLANCHER,'gaussian',0,0.01);
@@ -39,4 +39,30 @@ Gv_n = Gv./(G+0.000001);
 Gh_n = Gh./(G+0.000001);
 
 
+d = 2;
+i = 1:h;
+j = 1:w;
 
+[I,J] = meshgrid(i,j);
+I1 = round(I + d*Gv_n);
+I1 = double(I1.*(I1<=w) + w .* I1>w);
+I2 = round(I-d*Gv_n);
+I2 = I2 .*(I2>=1) + (I2<1);
+
+J1 = round(J-d*Gv_n);
+J1 = J1 .*(J1>=1) + (J1<1);
+J2 = round(J-d*Gv_n);
+J2 = J2 .*(J2>=1) + (J2<1);
+
+eps = 0.5;
+C = zeros(h,w);
+
+for n = 1:1:w
+    for m = 1:1:h
+        I1_ = I1(m,n)
+        J1_ = J1(m,n)
+        if ((((G(m,n) - G(I1(m,n),J1(m,n)))>eps) && ((G(m,n) - G(I2(m,n), J2(m,N)))>eps)))
+            C(m,n) = G(m,n);
+        end
+    end 
+end

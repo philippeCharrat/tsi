@@ -1,13 +1,14 @@
 function [matrice_label,tab_mi_o,tab_mi] = k_means(matrice_double,k)
   % 
-  tab_mi = abs(sort(rand(1,k)));
+  tab_mi = abs(sort(rand(1,k)))
   tab_mi_o = tab_mi;
   [H,W] = size(matrice_double);
   matrice_label = zeros(H,W);
   s_1 = 0;
   m = 0; 
   m_1 = 1;
-  while ( abs(m_1-m) > 0.28)   
+  while ( abs(m_1-m) > 0.001)   
+      tab_mi
     for i=1:H
       for j=1:W
         for l=1:k
@@ -17,17 +18,18 @@ function [matrice_label,tab_mi_o,tab_mi] = k_means(matrice_double,k)
             break
           else 
             s_1 = tab_mi(l);
-          endif
-        endfor
-      endfor
-    endfor
+          end
+        end
+      end
+    end
+  
     
     for l=1:k
       tab_mi(l) = mean(matrice_double(matrice_label == l-1));
-    endfor
+    end
     m_1 = m;
     m = tab_mi(1); 
-    abs(m-m_1)
-  endwhile
+    abs(m-m_1);
+end
   
-endfunction
+end

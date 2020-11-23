@@ -1,0 +1,64 @@
+function [closest,tab_mi,Image_sortie] = k_means2(Image,k)
+
+[h,w] = size(Image);
+Image_sortie = zeros(h,w);
+%Création de nos k points aléatoires
+tab_mi = abs(sort(rand(1,k)));
+%Initialisations de nos variables
+%--> Closest : Matrice qui contient pour chaque élément, de quel tab_mi(n) il
+%est le plus proche
+%--> ctrl_it_k et ctrl_it_k_1 qui permettent de vérifier à chaque itération
+%si la différence entre l'itération k et l'itération k-1 est grande
+closest = zeros(h,w);
+ctrl_it_k = 1;
+ctrl_it_k_1 = 0;
+%Tant que la somme des différences entre l'itération n et l'itération n-1 est grande
+while (abs(ctrl_it_k-ctrl_it_k_1)>0.0001 * k)%0.01 * k afin que la marge tolérée s'adapte au nombre de k-means
+    ctrl_it_k_1 = ctrl_it_k;
+    for l = 1:h 
+        for m = 1:w
+            %variable qui contient à la fin de la boucle suivante l'indice 
+            %du k-mean le plus proche
+            count_var = 0;
+            %Variable permettant de déterminer quel k-mean est le plus proche
+            diff_abs = 1;
+            for i = 1:k
+                %Si on trouve un k-means plus proche à l'itération i+1, on
+                %change les valeurs qui stockent ses coordonnées et sa
+                %distance au k-mean étudié
+                if (abs(tab_mi(i) - Image(l,m)) < diff_abs)
+                    count_var = i;
+                    diff_abs = abs(tab_mi(i) - Image(l,m));
+                end
+            end
+            %On implémente closest en fonction de ce que l'on trouve
+            closest(l,m) = count_var;
+        end
+    end
+    %On fait la moyenne de tous les pixels proches du p-mean étudié
+    for p = 1:k
+        tab_mi(p) = sum(Image(closest == p))/length(Image(closest == p));
+    end
+    ctrl_it_k = 0;
+    %On passe la variable de contrôle de l'itération k à sa nouvelle valeur
+    ctrl_it_k = sum(tab_mi);
+    %On modifie la matrice matrice_label (celle que la fonction donne en 
+    %sortie) en appliquant les valeurs des k-means aux bons indices
+end
+for l = 1:h
+    for m = 1:w
+        for n = 1:k
+            if (closest(l,m) == n)
+                Image_sortie(l,m) = tab_mi(n);
+            end
+        end
+    end
+end
+end
+        
+                
+                    
+
+            
+            
+
