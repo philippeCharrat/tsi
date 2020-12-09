@@ -1,0 +1,10 @@
+^C:\USERS\AXEL BRUYERE\PROJET_TSI\BUILD\CMAKEFILES\32FD9DC4563337FBF4397C4AC7C1CDE1\GENERATE.STAMP.RULE
+setlocal
+C:\CMake\bin\cmake.exe "-SC:/Users/Axel BRUYERE/Projet_TSI" "-BC:/Users/Axel BRUYERE/Projet_TSI/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Axel BRUYERE/Projet_TSI/build/openGL_CPE.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

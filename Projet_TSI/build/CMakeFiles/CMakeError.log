@@ -1,0 +1,130 @@
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Users/Axel BRUYERE/Projet_TSI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_10a44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.28.29334 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  HAVE_UNISTD_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_10a44.dir\Debug\\" /Fd"cmTC_10a44.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2,10): fatal error C1083: Impossible d'ouvrir le fichier includeÿ: 'unistd.h'ÿ: No such file or directory [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_10a44.vcxproj]
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: C:/Users/Axel BRUYERE/Projet_TSI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_130db.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.28.29334 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  HAVE_SYS_TIME_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_130db.dir\Debug\\" /Fd"cmTC_130db.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c"
+C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2,10): fatal error C1083: Impossible d'ouvrir le fichier includeÿ: 'sys/time.h'ÿ: No such file or directory [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_130db.vcxproj]
+
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: C:/Users/Axel BRUYERE/Projet_TSI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b2b58.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.28.29334 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  HAVE_SYS_PARAM_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2b58.dir\Debug\\" /Fd"cmTC_b2b58.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c"
+C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2,10): fatal error C1083: Impossible d'ouvrir le fichier includeÿ: 'sys/param.h'ÿ: No such file or directory [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_b2b58.vcxproj]
+
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/Axel BRUYERE/Projet_TSI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fe6f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.28.29334 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  HAVE_SYS_IOCTL_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe6f5.dir\Debug\\" /Fd"cmTC_fe6f5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c"
+C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(2,10): fatal error C1083: Impossible d'ouvrir le fichier includeÿ: 'sys/ioctl.h'ÿ: No such file or directory [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_fe6f5.vcxproj]
+
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: C:/Users/Axel BRUYERE/Projet_TSI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_db843.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.28.29334 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  HAVE_USBHID_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db843.dir\Debug\\" /Fd"cmTC_db843.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c"
+C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c(2,10): fatal error C1083: Impossible d'ouvrir le fichier includeÿ: 'usbhid.h'ÿ: No such file or directory [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_db843.vcxproj]
+
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/Users/Axel BRUYERE/Projet_TSI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f9c3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.28.29334 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9c3b.dir\Debug\\" /Fd"cmTC_f9c3b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: symbole externe non r‚solu gettimeofday r‚f‚renc‚ dans la fonction main [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_f9c3b.vcxproj]
+C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\Debug\cmTC_f9c3b.exe : fatal error LNK1120: 1 externes non r‚solus [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_f9c3b.vcxproj]
+
+
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: C:/Users/Axel BRUYERE/Projet_TSI/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_80591.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.8.2+25e4d540b pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.28.29334 pour x64
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80591.dir\Debug\\" /Fd"cmTC_80591.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\CMake\share\cmake-3.19\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: symbole externe non r‚solu XParseGeometry r‚f‚renc‚ dans la fonction main [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_80591.vcxproj]
+C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\Debug\cmTC_80591.exe : fatal error LNK1120: 1 externes non r‚solus [C:\Users\Axel BRUYERE\Projet_TSI\build\CMakeFiles\CMakeTmp\cmTC_80591.vcxproj]
+
+
+

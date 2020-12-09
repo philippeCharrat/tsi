@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1889,5): warning : The referenced project 'C:\Users\Axel BRUYERE\Projet_TSI\build\ZERO_CHECK.vcxproj' does not exist.
+  Building Custom Rule C:/Users/Axel BRUYERE/Projet_TSI/tools/CMakeLists.txt
+  CMake is re-running because C:/Users/Axel BRUYERE/Projet_TSI/build/tools/CMakeFiles/generate.stamp dependency file is missing.
+CUSTOMBUILD : CMake error : The source directory "C:/Users/Axel BRUYERE/Projet_TSI" does not appear to contain CMakeLists.txt.
+  Specify --help for usage, or press the help button on the CMake GUI.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(238,5): error MSB8066: la build personnalisée de 'C:\Users\Axel BRUYERE\Projet_TSI\tools\CMakeLists.txt' s'est arrêtée. Code 1.
